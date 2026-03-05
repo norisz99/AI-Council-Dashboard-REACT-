@@ -4,7 +4,7 @@
 
 ## 📌 Áttekintés (Overview)
 
-Ez a projekt egy valós idejű, interaktív **AI Vezérlőpult**, amely egy Python backendből (adatforrás) és egy modern React frontendből (megjelenítő) áll. A rendszer Socket.IO segítségével kommunikál, és dupla hálózati alagutakon (Ngrok & Cloudflare) keresztül biztosítja, hogy a lokális hálózaton futó szerverek és a "Taktikai Tojmó" vezérlőközpont publikusan, bármilyen okoseszközről elérhetőek legyenek.
+Ez a projekt egy valós idejű, interaktív **AI Vezérlőpult**, amely egy Python backendből (adatforrás) és egy modern React frontendből (megjelenítő) áll. A rendszer Socket.IO segítségével kommunikál, és dupla hálózati alagutakon (Ngrok & Cloudflare) keresztül biztosítja, hogy a lokális hálózaton futó szerverek és a vezérlőközpont publikusan, bármilyen okoseszközről elérhetőek legyenek.
 
 ## 🛠️ Funkciók
 
@@ -21,5 +21,6 @@ Ez a projekt egy valós idejű, interaktív **AI Vezérlőpult**, amely egy Pyth
 * **Protokoll:** WebSocket (WSS) / HTTP
 
 ## ⚖️ Jogi Nyilatkozat (Disclaimer)
+
 
 A szoftver "ahogy van" (as is) kerül biztosításra, mindennemű garancia nélkül, legyen az kifejezett vagy vélelmezett, beleértve, de nem kizárólagosan az eladhatóságra, egy adott célra való alkalmasságra és a jogsértés hiányára vonatkozó garanciákat. A szerzők vagy a szerzői jogok birtokosai semmilyen körülmények között nem tehetők felelőssé semmilyen követelésért, kárért vagy egyéb felelősségért, akár szerződéses jogviszonyból, akár versenyjogból vagy másból eredően, amely a szoftverből, annak használatából, vagy a szoftverrel kapcsolatos egyéb tranzakciókból fakad.
