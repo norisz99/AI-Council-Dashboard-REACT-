@@ -1,6 +1,11 @@
 # 🎛️ Project: Norisz Corp AI Vezérlőpult
 
-`Python 3.12` `React Vite` `Docker` `Kubernetes` `Socket.IO` `Status: Active`
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![React Vite](https://img.shields.io/badge/React_Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
 🌐 **Élő Rendszer Elérése:** [Kattints ide a Vezérlőpulthoz](https://ide-jon-a-cloudflare-linked.trycloudflare.com)
 *(Megjegyzés: Mivel a rendszer lokális fejlesztés alatt áll, a Cloudflare alagút linkje minden indításnál változhat. Kérd a legfrissebb linket az üzemeltetőtől!)*
