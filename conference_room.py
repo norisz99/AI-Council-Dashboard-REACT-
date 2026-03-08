@@ -36,7 +36,20 @@ def hatter_radar():
 
 @socketio.on('connect')
 def kliens_csatlakozott():
-    print("🟢 WEBSOCKET: Egy kliens rácsatlakozott a radarra!")
+    # Először a titkos "X-Forwarded-For" zsebet nézzük meg, ha nincs, marad az alap IP
+    valodi_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
+    
+    # Kinyerjük az eszköz és a nyelv adatait
+    user_agent = request.headers.get('User-Agent', 'Ismeretlen eszköz')
+    language = request.headers.get('Accept-Language', 'Ismeretlen nyelv')
+    
+    # A jelentés kiírása
+    print(f"\n[+] --- ÚJ LÁTOGATÓ A RADARON ---")
+    print(f"[+] Valódi IP: {valodi_ip}")
+    print(f"[+] Eszköz:    {user_agent}")
+    print(f"[+] Nyelv:     {language}")
+    print(f"[+] ---------------------------------------------\n")
+    
     socketio.start_background_task(target=hatter_radar)
 
 
