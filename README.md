@@ -7,7 +7,7 @@
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
-🌐 **Élő Rendszer Elérése:** [Kattints ide a Vezérlőpulthoz](https://ide-jon-a-cloudflare-linked.trycloudflare.com)
+🌐 **Élő Rendszer Elérése:** [Kattints ide a Vezérlőpulthoz](https://innocent-expect-approaches-bat.trycloudflare.com/)
 *(Megjegyzés: Mivel a rendszer lokális fejlesztés alatt áll, a Cloudflare alagút linkje minden indításnál változhat. Kérd a legfrissebb linket az üzemeltetőtől!)*
 
 ## 📌 Áttekintés (Overview)
@@ -36,3 +36,4 @@ A rendszer teljesen szétválasztott (Decoupled) környezetben működik:
 ## ⚖️ Jogi Nyilatkozat (Disclaimer)
 
 A szoftver fejlesztés alatt áll, "ahogy van" (as is) kerül biztosításra. A rendszer használata, valamint a hálózati portok és alagutak (Ngrok, Cloudflare) megnyitása saját felelősségre történik. A készítő semmilyen felelősséget nem vállal az esetleges adatvesztésért, hálózati sebezhetőségekért, vagy a szoftver használatából fakadó bármilyen kárért.
+
